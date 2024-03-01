@@ -36,7 +36,7 @@ public class ProductController {
     return ResponseEntity.ok(arrBuilder.build().toString());
   }
 
-  @GetMapping(path="/category/{category}")
+  @GetMapping(path="/category/{category}") //pathVariable routerlink
   @ResponseBody
   public ResponseEntity<String> getCategory(@PathVariable String category) {
 

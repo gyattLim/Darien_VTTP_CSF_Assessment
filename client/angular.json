@@ -70,7 +70,8 @@
               "buildTarget": "client-side:build:production"
             },
             "development": {
-              "buildTarget": "client-side:build:development"
+              "buildTarget": "client-side:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

@@ -22,7 +22,8 @@ export class MainComponent implements OnInit {
   }
 
   viewCatetory(category: string) {
-    this.router.navigate(['/category', category])
+    console.log(category);
+    this.router.navigate(['/category',category])
   }
 
 }
